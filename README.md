@@ -15,13 +15,13 @@ npm install @satachito/jp-split --save
 ## Demo
 
 See
-`https://satachito.github.io/jp-split/`
+https://satachito.github.io/jp-split/
 
 ## HTML & CSS
 
 Include `jp-split.js` at the very bottom of the `<body>` tag.
 Supply `grid-template` attribute like `grid-template="1fr 4px 1fr"`.
-For meaning, refer `https://developer.mozilla.org/ja/docs/Web/CSS/grid-template-columns`
+For meaning, refer https://developer.mozilla.org/ja/docs/Web/CSS/grid-template-columns
 
 
 ```
