@@ -8,13 +8,21 @@ A small and understandable split view witch supports both horizontal and vertica
 npm install @satachito/jp-split --save
 ```
 
+## Components
+
+`jp-split-h` for horizontal splitting and `jp-split-v` for vertical splitting.
+
 ## Demo
 
-https://satachito.github.io/jp-split/
+See
+`https://satachito.github.io/jp-split/`
 
 ## HTML & CSS
 
-Include jp-split.js at the very bottom of the <body> tag.
+Include `jp-split.js` at the very bottom of the `<body>` tag.
+Supply `grid-template` attribute like `grid-template="1fr 4px 1fr"`.
+For meaning, refer `https://developer.mozilla.org/ja/docs/Web/CSS/grid-template-columns`
+
 
 ```
 ---------------- BarH
