@@ -8,7 +8,11 @@ A small and understandable split view witch supports both horizontal and vertica
 npm install @satachito/jp-split --save
 ```
 
-## HTML
+## Demo
+
+https://satachito.github.io/jp-split/
+
+## HTML & CSS
 
 Include jp-split.js at the very bottom of the <body> tag.
 
