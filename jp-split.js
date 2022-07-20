@@ -17,10 +17,10 @@ customElements.define(
 					if ( !bias ) return
 					if ( bias < 0 ) { 
 						const new1 = size1 < -bias ? 0 : size1 + bias
-						this.style.gridTemplateColumns = `${new1}px ${_G.offsetWidth}px ${size1 + size2 - new1}px`
+						this.style.gridTemplateColumns = `${new1}fr ${_G.offsetWidth}px ${size1 + size2 - new1}fr`
 					} else {
 						const new2 = size2 < +bias ? 0 : size2 - bias
-						this.style.gridTemplateColumns = `${size1 + size2 - new2}px ${_G.offsetWidth}px ${new2}px`
+						this.style.gridTemplateColumns = `${size1 + size2 - new2}fr ${_G.offsetWidth}px ${new2}fr`
 					}
 				}
 				this.onmouseup = () => this.onmousemove = null
@@ -49,10 +49,10 @@ customElements.define(
 					if ( !bias ) return
 					if ( bias < 0 ) { 
 						const new1 = size1 < -bias ? 0 : size1 + bias
-						this.style.gridTemplateRows = `${new1}px ${_G.offsetHeight}px ${size1 + size2 - new1}px`
+						this.style.gridTemplateRows = `${new1}fr ${_G.offsetHeight}px ${size1 + size2 - new1}fr`
 					} else {
 						const new2 = size2 < +bias ? 0 : size2 - bias
-						this.style.gridTemplateRows = `${size1 + size2 - new2}px ${_G.offsetHeight}px ${new2}px`
+						this.style.gridTemplateRows = `${size1 + size2 - new2}fr ${_G.offsetHeight}px ${new2}fr`
 					}
 				}
 				this.onmouseup = () => this.onmousemove = null
